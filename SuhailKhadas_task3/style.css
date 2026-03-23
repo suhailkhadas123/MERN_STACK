@@ -11,13 +11,12 @@
 #para{
     color: green;
 }
-#highlights{
+#highlight{
     color: black;
     font-size: 25px;
 }
-#here_1{
-    background-color: yellow;
-}
-#here_2{
-    background-color: blue;
+li span {
+    color: blue;
+    text-decoration: underline;
+  
 }

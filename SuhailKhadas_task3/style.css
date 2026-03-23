@@ -1,0 +1,23 @@
+#body{
+    background-color: #f8fafd;
+}
+.heading{
+    color: darkblue;
+}
+#second_heading{
+    background-color: lime;
+    color: red;
+}
+#para{
+    color: green;
+}
+#highlights{
+    color: black;
+    font-size: 25px;
+}
+#here_1{
+    background-color: yellow;
+}
+#here_2{
+    background-color: blue;
+}

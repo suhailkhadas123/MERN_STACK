@@ -1,11 +1,11 @@
-# 🧺 Laundry Mart Loginpage
+# Laundry Mart Loginpage
 
-## 📌 Project Description
+## Project Description
 A simple and responsive login page built using HTML and CSS. This project demonstrates a clean split-screen layout with an image on the left and a login form on the right.
 
 ---
 
-## 🎯 Features
+## Features
 - Modern split-screen design
 - Responsive layout using Flexbox & Grid
 - Login form with username & password inputs
@@ -13,13 +13,13 @@ A simple and responsive login page built using HTML and CSS. This project demons
 - "Forgot Password" and "Register" links
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML5
 - CSS
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 project-folder/
 │── index.html
@@ -30,7 +30,7 @@ project-folder/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 Simply open the `index.html` file in your web browser to view the webpage.
 
 ---

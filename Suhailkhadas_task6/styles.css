@@ -1,90 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+
+.left {
+    width: 50vw;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
     
 }
 
-.right{
-   height: 100vh;
-   width: 50vw;
-   background-color: #1d7291;
-   display: grid;
-   align-content: center;
-   justify-content: center;
-   gap: 10px;
 
-}
-
-img{
+.right {
     width: 50vw;
-    height: 100vh
+    height: 100vh;
+    background-color: #1d7291;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px;
 }
-.heading{
-    font-size:50px;
+
+
+.heading {
+    font-size: 50px;
     color: #bfcfce;
     font-family: cursive;
 }
-.form{
-    font-family: cursive;
-    font-size: 25px;
-    display: grid;
+
+
+.form {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
+    font-size: 25px;
     color: #bfcfce;
-  
+    font-family: cursive;
+    width: 60%;
 }
 
-#username {
+
+#username{
     background-color: #bfcfce;
     border: none;
     border-radius: 10px;
     height: 40px;
-    padding-left: 3%;
+    padding-left: 10px;
 }
-#password{
+#password {
     background-color: #bfcfce;
     border: none;
     border-radius: 10px;
     height: 40px;
-    padding-left: 3%;
+    padding-left: 10px;
 }
 
-#login{
+
+#login {
     background-color: #bfcfce;
     border: none;
     border-radius: 10px;
     height: 40px;
     font-size: 20px;
     font-family: cursive;
-    
 }
-#login:hover{
+
+#login:hover {
     cursor: pointer;
 }
-.bottom{
+
+
+.bottom {
     font-size: 20px;
     color: #bfcfce;
-    text-align: center;
 }
-.reg{
+
+.reg {
     color: #ae1916;
     text-decoration: underline;
 }
-.forgot{
+
+.forgot {
     font-size: 15px;
     color: #bfcfce;
-    text-align: right;
     text-decoration: underline;
 }
-.reg:hover{
-    cursor: pointer;
-}
-.forgot:hover{
+
+.reg:hover,
+.forgot:hover {
     cursor: pointer;
 }

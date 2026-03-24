@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.right{
+   height: 100vh;
+   width: 50vw;
+   background-color: #1d7291;
+   display: grid;
+   align-content: center;
+   justify-content: center;
+   gap: 10px;
+
+}
+
+img{
+    width: 50vw;
+    height: 100vh
+}
+.heading{
+    font-size:50px;
+    color: #bfcfce;
+    font-family: cursive;
+}
+.form{
+    font-family: cursive;
+    font-size: 25px;
+    display: grid;
+    gap: 10px;
+    color: #bfcfce;
+  
+}
+
+#username {
+    background-color: #bfcfce;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 3%;
+}
+#password{
+    background-color: #bfcfce;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 3%;
+}
+
+#login{
+    background-color: #bfcfce;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+#login:hover{
+    cursor: pointer;
+}
+.bottom{
+    font-size: 20px;
+    color: #bfcfce;
+    text-align: center;
+}
+.reg{
+    color: #ae1916;
+    text-decoration: underline;
+}
+.forgot{
+    font-size: 15px;
+    color: #bfcfce;
+    text-align: right;
+    text-decoration: underline;
+}
+.reg:hover{
+    cursor: pointer;
+}
+.forgot:hover{
+    cursor: pointer;
+}

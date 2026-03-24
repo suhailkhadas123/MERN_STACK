@@ -93,7 +93,8 @@ li:hover{
     }
 
     nav div{
-        justify-content: space-between;
+    justify-content: space-between;
+    position: relative; 
     }
 
     .logo img{
@@ -104,19 +105,21 @@ li:hover{
         font-size: 14px;
         
     }
-    .menu{
-        display: none;
-        background-color: #1f1f1f;
-        position: absolute;
-        height: 100vh;
-        right: 0;
-        width: 50vw;  
-        
-       
-        
+.menu {
+    display: none;
+    background-color: #1f1f1f;
+    position: fixed;
+    height: 200vh;
+    right: 0;
+    width: 50vw;
+  
+
+}
     }
     .menu ul{
         display: grid;
+        
+        align-items: center;
         
     }
     .menu li{
@@ -124,11 +127,11 @@ li:hover{
         font-size: 24px;
         
     }
-    button:focus ~ .menu { 
-        display: grid; 
-        align-items: center;}
-
+nav div:focus-within .menu {
+    display: grid;
+    align-items: center;
 }
+
 .hero{
     display: flex;
     align-items: center;

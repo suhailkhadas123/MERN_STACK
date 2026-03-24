@@ -30,6 +30,24 @@ li:hover{
 .username{
     font-size: 18px;
 }
+button{
+    margin-left: 0%;
+    margin-top: 2%;
+    background-color: #2db3ff;
+    padding: 5%;
+    border-radius: 12px;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.content{
+    text-align: justify;
+    font-size: 20px;
+    display: block;
+}
 
 /* 📱 Tablet View */
 @media (max-width: 1024px){
@@ -47,7 +65,7 @@ li:hover{
 /* 📱 Mobile View */
 @media (max-width: 600px){
     ul{
-        display: none; /* Hide menu */
+        display: none; 
     }
 
     nav div{
@@ -81,7 +99,6 @@ li:hover{
     width: 100%;
 }
 
-/* Text */
 .h1, .h2, .h3{
     font-size: 40px;
 }

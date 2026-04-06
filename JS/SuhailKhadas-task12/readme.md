@@ -1,1 +1,1 @@
-Displayed The Hello World on webPage using H1 Tag
+used the Javascript varibles to calculate the compoun intrest

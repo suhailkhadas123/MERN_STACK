@@ -32,3 +32,4 @@ const odd=function(array)
     console.log("Number of odd numbers", count);
 }
 odd(number)
+

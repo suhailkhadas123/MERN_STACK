@@ -1,0 +1,114 @@
+html{
+    font-size: 20px;
+    font-family: "Lora",serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+      --primary-color: #A67C52;
+  --primary-hover: #8C6843;
+  --secondary-color: #EAD9C2;
+  --secondary-hover: #DCC4A6;
+  --dark-color: #241812;
+  --heading-color: #F7F1E8;
+  --text-light: #FFFDF9;
+  --overlay-color: rgba(20, 12, 8, 0.45);
+  --border-gold: #C6A87A;
+}
+
+ header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/Images/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+ }
+.hero-section{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}   
+h1{
+   margin: 0;
+   padding: 0;
+   color: white;
+   font-size: 240%;
+   font-weight: 200;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+
+} 
+.hero-section-btn1{
+    background-color: #d8ba82;
+    background-color: var(--primary-color);
+    color: var(--light-text);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+.hero-section-btn1:hover {
+  background-color: transparent;
+  cursor:pointer;
+  color: var(--border-gold);
+}
+.hero-section-btn2{
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+.hero-section-btn2:hover{
+    background-color: var(--secondary-hover);
+    color: var(--dark-color);
+    cursor: pointer;
+}
+
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-left:10%
+}
+.action-menu{
+    float: right;
+    margin-right: 10%;
+    list-style: none;
+}
+.action-menu li{
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+.link{
+  text-decoration: none;
+   color: var(--heading-color);
+   font-size: 90%;
+   text-transform: uppercase ;
+   border-bottom: 2px solid transparent;
+   transition: border 0.7s;
+}
+
+.link:hover ,.link:active{
+    border-bottom: 2px solid var(--border-gold);
+}
+.row{
+    display: flex;
+    padding: 1% 10%;
+    background-color: var(--secondary-hover);
+}
+.left-section, .right-section{
+    width: 50%;
+    
+    
+}
+
+.left-section img{
+    width: 60%;
+    margin-left: 20%;
+}
+.right-section h3{
+    color: var(--heading-color);
+}

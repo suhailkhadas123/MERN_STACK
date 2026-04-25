@@ -1,43 +1,35 @@
-# Laundry Service Website
+# Laundry Service Booking Website
 
-A modern, responsive laundry booking website with add-to-cart functionality and form validation.
+This is a simple laundry service booking website built with HTML, CSS, and JavaScript.
+
+The project allows users to:
+- view available laundry services
+- add or remove services from the cart
+- see the total booking amount
+- fill in their booking details
+- send the booking request using EmailJS
 
 ## Features
-- Browse laundry services (Dry Cleaning, Wash & Fold, etc.)
-- Add/Remove items from cart with live total update
-- Book service with name, email, phone
-- Empty cart validation
-- No page reload on submit
 
-## Demo
-Live preview: [Add your link here]
+- Service listing with add/remove cart functionality
+- Dynamic cart update with total amount
+- Booking form validation
+- EmailJS integration for sending booking details
+- Smooth scroll from hero section to booking section
 
-[image:36]
+## How to run the project
 
-## Quick Start
-1. Download files (`index.html`, `styles.css`, `scripts.js`)
-2. Open `index.html` in browser
-3. Add services to cart → Book now
+1. Download or clone the project files.
+2. Open the project folder.
+3. Run the website in a browser using `index.html`.
 
-## Files
-- `index.html` - Structure & content
-- `styles.css` - Modern responsive design
-- `scripts.js` - Cart logic & form handling
-- `images/laundry.jpg` - Hero image
+## EmailJS setup
 
-## How It Works
-1. Click "Add Item" → Service added to cart table, total updates, button → "Remove Item"
-2. Fill form → Click "Book now"
-3. Empty cart? → "Please add services"
-4. Has items? → "Booking Successful"
+To make the booking form work, EmailJS must be configured with your own account details.
 
-## Tech Stack
-- HTML5, CSS3, Vanilla JavaScript
-- Responsive design (mobile-first)
-- No backend required
+Update the following values inside `scripts.js`:
 
-## Browser Support
-- Chrome, Firefox, Safari, Edge (latest)
+- `publicKey`
+- `service ID`
+- `template ID`
 
-## License
-MIT License - Free to use/modify.

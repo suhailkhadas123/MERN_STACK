@@ -55,7 +55,14 @@
     
 
 
-
+@media  screen and (max-width: 900px) {
+         .parent ,.services-parent , .newsletter-parent, .footer-parent{
+        display: inline-block;
+       width: 100%;
         
-
-         
+    }
+    .foot{
+        justify-items: center;
+    }
+}
+        

@@ -276,3 +276,51 @@ hr{
 .foot-links{
     display: grid;
 }
+@media screen and (max-width :900px) {
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .hero-section{
+        display: grid;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .right-section{
+        display: none;
+    }
+    .left-section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    header{
+        padding: 0;
+        height: auto;
+    }
+    .left-section button{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .action-menu li a{
+        display: hidden;
+    }
+    .container{
+        display: grid;
+    }
+    .services-panel , .cart-panel{
+        width: 100%;
+    }
+    .services-parent{
+        display: grid;
+    }
+    nav{
+        display: none;
+    }
+}

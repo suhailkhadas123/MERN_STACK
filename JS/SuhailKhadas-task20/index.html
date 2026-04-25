@@ -81,7 +81,7 @@
             <span class="service-name">Dry Cleaning</span>
             <span class="service-price">₹200.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn" type="submit">Add Item</button>
         </div>
 
         <div class="service-row">
@@ -90,7 +90,7 @@
             <span class="service-name">Wash & Fold</span>
             <span class="service-price">₹100.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn">Add Item</button>
         </div>
 
         <div class="service-row">
@@ -99,7 +99,7 @@
             <span class="service-name">Ironing</span>
             <span class="service-price">₹30.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn" >Add Item</button>
         </div>
 
         <div class="service-row">
@@ -108,7 +108,7 @@
             <span class="service-name">Stain Removal</span>
             <span class="service-price">₹500.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn" >Add Item</button>
         </div>
 
         <div class="service-row">
@@ -117,7 +117,7 @@
             <span class="service-name">Leather & Suede Cleaning</span>
             <span class="service-price">₹999.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn">Add Item</button>
         </div>
 
         <div class="service-row">
@@ -126,7 +126,7 @@
             <span class="service-name">Wedding Dress Cleaning</span>
             <span class="service-price">₹2800.00</span>
           </div>
-          <button class="add-to-cart-btn" onclick="addtoCart()">Add Item</button>
+          <button class="add-to-cart-btn" >Add Item</button>
         </div>
       </div>
 
@@ -167,21 +167,21 @@
       <h3>Book Now</h3>
       <form id="contact-form">
     <label for="input-name" class="form-label">Full Name </label>
-      <input type="text" placeholder="John Doe"  name="name" id="input-name" required>
+      <input type="text" placeholder="John Doe"  name="name" id="input-name" >
 
       <section id="contact">
         <div class="input-group">
           <label for="input-email" class="form-label">Email ID </label>
-          <input type="email" placeholder="mail@gmail.com" name="email" id="input-email" required >
+          <input type="text" placeholder="mail@gmail.com" name="email" id="input-email">
         </div>
 
         <div class="input-group">
           <label for="input-number" class="form-label">Phone Number </label>
-          <input type="tel" placeholder="0000000000" name="number"  id="input-number" required>
+          <input type="tel" placeholder="0000000000" name="number"  id="input-number"  >
         </div>
       </section>
      
-      <button id="book-now-btn" onclick="book()" type="submit" value="Send">Book now</button>
+      <button id="book-now-btn"  type="submit" value="Send">Book now</button>
  </form>
 
 
@@ -286,11 +286,14 @@
     </div>
     <div class="foot">
       <h3>Follow US</h3>
-      <ion-icon name="logo-twitter"></ion-icon>
+      <div>
+              <ion-icon name="logo-twitter"></ion-icon>
       <ion-icon name="logo-youtube"></ion-icon>
       <ion-icon name="logo-linkedin"></ion-icon>
       <ion-icon name="logo-instagram"></ion-icon>
       <ion-icon name="logo-github"></ion-icon>
+      </div>
+
     </div>
 </div>
     

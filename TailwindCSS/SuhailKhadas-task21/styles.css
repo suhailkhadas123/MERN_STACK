@@ -1,0 +1,58 @@
+
+    
+    * { 
+      font-family: Arial; 
+    }
+    
+    .hero-gradient {
+      background: linear-gradient(160deg, #fff5ec 0%, #fff8f3 40%, #ffffff 100%);
+    }
+    
+    .card-glass {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+    }
+    
+    .btn-primary {
+      background: #1a1a1a;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { 
+      background: #333; 
+      transform: translateY(-1px); 
+    }
+    
+    .btn-secondary {
+      background: #4F6EF7;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-secondary:hover { 
+      background: #3a57d4; 
+      transform: translateY(-1px); 
+    }
+    
+
+ 
+    
+    .chat-btn { 
+      transition: transform 0.2s, box-shadow 0.2s; 
+    }
+    .chat-btn:hover { 
+      transform: scale(1.1); 
+      box-shadow: 0 8px 25px rgba(79,110,247,0.4); 
+    }
+
+    .nav-link {
+      position: relative;
+      transition: color 0.2s;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px; left: 0;
+      width: 0; height: 2px;
+      background: #4F6EF7;
+      transition: width 0.2s;
+    }
+    .nav-link:hover::after { width: 100%; }
+    .nav-link:hover { color: #4F6EF7; }
